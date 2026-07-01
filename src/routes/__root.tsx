@@ -82,10 +82,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "author", content: "Lovable" },
       { property: "og:title", content: "Typerope Walker" },
       { property: "og:description", content: "Chain words. Stay balanced. Reach the finish." },
+      { property: "og:image", content: "https://typerope-walker.vercel.app/cover-1200x630.png" },
       { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
       { name: "twitter:title", content: "Typerope Walker" },
       { name: "twitter:description", content: "Chain words. Stay balanced. Reach the finish." },
+      { name: "twitter:image", content: "https://typerope-walker.vercel.app/cover-1200x630.png" },
     ],
     links: [
       {
